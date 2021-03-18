@@ -79,7 +79,6 @@ const sharedEditorOptions: import("monaco-editor").editor.IEditorOptions = {
 export function defaultPlaygroundSettings() {
   const config: PlaygroundConfig = {
     text: "",
-    domID: "",
     compilerOptions: {},
     acquireTypes: true,
     useJavaScript: false,
